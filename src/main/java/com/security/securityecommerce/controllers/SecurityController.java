@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/")
 public class SecurityController {
 
-    @GetMapping("/v1/products")
+    @GetMapping("/v1/products/")
     public String checkAccess() {
         return "OK";
     }
