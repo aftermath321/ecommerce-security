@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ENV 
+.env
+/.env
+/src/main/resources/private_key_pkcs8.pem
+/src/main/resources/public_key.pem
+/src/main/resources/rsa_private_key.pem
